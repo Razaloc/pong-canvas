@@ -1,0 +1,28 @@
+body {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: white; /* Color de texto blanco */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    border: 2px solid #ffffff; /* Borde blanco alrededor del canvas */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Sombra suave */
+    transition: transform 0.2s; /* Transición suave al hover */
+}
+
+canvas:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra del texto */
+}
